@@ -9,7 +9,7 @@ spec:
       revisionTemplate:
         spec:
           container:
-            image: PIPELINE_REPLACE:latest 
+            image: docker.io/{username}/helloworld-go 
             env:
             - name: TARGET
               value: "Go Sample v1"
